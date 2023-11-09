@@ -1,0 +1,218 @@
+.footerFirst {
+  width: 100%;
+  height: 220px;
+  background: dodgerblue;
+  display: flex;
+}
+
+
+.footerFirst_center {
+  width: 90%;
+  height: 65%;
+  border-radius: 25px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  padding: 0 20px;
+}
+
+.footerFirst_card {
+  width: 25%;
+  height: auto;
+  display: flex;
+  gap: 20px;
+  margin-left: 0px;
+  cursor: bnpm;
+}
+
+.salom {
+  margin-left: 20px;
+}
+
+.salom1 {
+  margin-left: 40px;
+  width: 350px;
+}
+
+.footerFirst_card1 {
+  width: 17%;
+  height: auto;
+  display: flex;
+}
+
+.footerFirst_card1 img {
+  margin: auto;
+}
+
+.footerFirst_card2 {
+  width: 83%;
+  height: auto;
+  padding: 30px 0;
+}
+
+.footerFirst_card2 h2 {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footerFirst_card2 p {
+  font-size: 13px;
+  text-align: start;
+  color: #999;
+  width: 150px;
+  margin-top: 8px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footerSecond {
+  width: 100%;
+  height: 430px;
+  background: #fff;
+  padding: 0 70px;
+}
+
+.footerSecond_top {
+  width: 100%;
+  height: 85%;
+  border-bottom: 1px solid #999;
+  display: flex;
+}
+
+.footerSecond_card1 {
+  width: 410px;
+  height: 100%;
+  padding: 34px 0;
+}
+
+.footerSecond_card1 h2 {
+  font-weight: 600;
+  font-size: 19px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footerSecond_card1 p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #777;
+}
+
+.footerSecond p {
+  cursor: pointer;
+  transition: .3s;
+  transition: calc(.3s);
+}
+
+.footerSecond p:hover {
+  color: dodgerblue;
+}
+
+.footerSecond_card2 {
+  width: 260px;
+  height: 100%;
+  padding: 34px 10px;
+
+}
+
+.footerSecond_card2 h2 {
+  font-weight: 600;
+  font-size: 19px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footerSecond_card2 p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #777;
+}
+
+.footerIcon {
+  width: 40px;
+  font-size: 20px;
+}
+
+.kitob {
+  margin-top: 10px;
+}
+
+.kitob2 {
+  margin-top: 35px;
+}
+
+.footerSecond_card3 {
+  width: 250px;
+  height: 100%;
+  padding: 34px 50px;
+}
+
+.footerSecond_card3 p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #777;
+}
+
+.footerSecond_card3 h2 {
+  font-weight: 600;
+  font-size: 19px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ikonka {
+  font-size: 20px;
+  color: #777;
+  margin-top: 15px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.ikonka:hover {
+  color: dodgerblue;
+}
+
+.footerSecond_card4 {
+  width: 300px;
+  height: 100%;
+  padding: 34px 0;
+}
+
+.footerSecond_card4 h2 {
+  font-weight: 600;
+  font-size: 19px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footerSecond_card4Card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.tolov_turlari {
+  width: 48.2%;
+  height: 70px;
+  background-color: #f3f3f3;
+  border-radius: 12px;
+  display: flex;
+}
+
+.tolov_turlari img {
+  margin: auto;
+}
+
+.dokon {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 30px;
+  color: #777;
+}

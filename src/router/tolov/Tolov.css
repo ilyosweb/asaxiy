@@ -1,0 +1,57 @@
+.tolov {
+  width: 100%;
+  height: 68vh;
+  display: flex;
+}
+
+.card {
+  width: 380px;
+  height: 390px;
+  border-radius: 30px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 30px 0px rgb(221, 221, 221);
+  padding: 25px;
+}
+
+.card h1 {
+  font-size: 40px;
+  font-weight: 300;
+  color: rgb(1, 1, 100);
+}
+
+.card p {
+  font-size: 15px;
+  margin-top: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #777;
+  font-weight: 500;
+}
+.card input{
+  width: 100%;
+  height: 35px;
+  border: 1px solid #999;
+  margin: 0 auto;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+.card input::placeholder{
+  font-size: 15px;
+  padding-left: 20px;
+  color: #999;
+  font-weight: 400;
+}
+.card button{
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: dodgerblue;
+  margin-top: 25px;
+  border:none;
+  color: white;
+}
+.card h6{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  color: #888;
+  margin-top: 15px;
+}

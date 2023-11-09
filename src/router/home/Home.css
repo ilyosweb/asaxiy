@@ -1,0 +1,154 @@
+.purchases {
+  width: 100%;
+  height: auto;
+  padding: 0 20px;
+  display: grid;
+  background: #ebebeb;
+  grid-template-columns: repeat(5, 1fr);
+  cursor: pointer;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+.purchases_cards {
+  width: 250px;
+  height: auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 12px;
+  margin-left: 12px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.purchases_cards {
+  padding: 5px;
+}
+
+.foiz {
+  width: 50px;
+  height: 20px;
+  background-color: rgb(255, 25, 25);
+  border-radius: 6px;
+  display: flex;
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: auto;
+}
+
+.foiz h3 {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.like {
+  background-color: transparent;
+  border: none;
+  font-weight: 100;
+  font-size: 24px;
+  margin-top: 0px;
+  margin-left: 150px;
+  position: absolute;
+  color: #707070;
+  cursor: pointer;
+}
+
+.like2 {
+  background-color: transparent;
+  border: none;
+  font-weight: 100;
+  font-size: 26px;
+  margin-top: 50px;
+  margin-left: 170px;
+  position: absolute;
+  color: #707070;
+  cursor: pointer;
+}
+
+.purchases_cards img {
+  width: 150px;
+  height: 180px;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 60px;
+  mix-blend-mode: darken;
+}
+
+.purchases_cards h2 {
+  width: 100%;
+  height: 50px;
+  font-weight: 400;
+  font-size: 14.5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 185px;
+}
+
+del{
+  font-size: 15px;
+  margin-top: 8px;
+  position: absolute;
+  color: #707070;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.narx{
+  margin-top: 35px;
+  color:dodgerblue;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nasiya{
+  border: none;
+  width: 95%;
+  height: 28px;
+  border: 1.5px solid rgb(255, 127, 22);
+  background-color: white;
+  color: rgb(255, 127, 22);
+  padding: 0 6px;
+  border-radius: 6px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.button{
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  display: flex;
+}
+.savat{
+  width: 35px;
+  height: 35px;
+  border: none;
+  display: flex;
+  border-radius: 6px;
+  background: aquamarine;
+  margin-left: 10px;
+  padding: 6px;
+  font-size: 26px;
+  cursor: pointer;
+
+}
+.savat:hover{
+  background: #ecebeb;
+
+}
+.harid{
+  width: 180px;
+  height: 35px;
+  border: none;
+  display: flex;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 6px;
+  padding: 9px 29px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 10px;
+  
+}
+
+

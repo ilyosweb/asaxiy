@@ -1,0 +1,189 @@
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  padding: 0 65px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  width: 122px;
+  height: 31px;
+  display: flex;
+  margin: auto 0;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+
+}
+
+.nav_btn {
+  width: 103px;
+  height: 32px;
+  border-radius: 8px;
+  background-color: dodgerblue;
+  border: none;
+  margin: auto 0;
+  margin-left: 16px;
+  display: flex;
+  color: white;
+  padding: 0 15px;
+  position: relative;
+  transition: all .35s;
+  cursor: pointer;
+}
+
+.nav_btn span {
+  width: auto;
+  height: auto;
+  margin: auto 0;
+  gap: 5px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+}
+
+.nav_btn:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 8px;
+  background: blue;
+  transition: all .35s;
+}
+
+.nav_btn:hover {
+  color: #fff;
+}
+
+.nav_btn:hover:after {
+  width: 100%;
+}
+
+.nav_btnIcon {
+  margin: auto 0;
+  font-size: 15px;
+}
+
+.nav_btn h2 {
+  font-size: 13px;
+  margin: auto 0;
+  font-weight: 300;
+}
+
+.search {
+  width: 465px;
+  height: 35px;
+  border: 1px solid dodgerblue;
+  border-radius: 8px;
+  margin: auto 0px;
+  margin-left: 25px;
+  display: flex;
+}
+
+.search input {
+  width: 390px;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+
+.search input::placeholder {
+  padding-left: 10px;
+  color: #ddd;
+  font-size: 12px;
+}
+
+.search button {
+  width: 75px;
+  height: 35px;
+  background-color: dodgerblue;
+  margin: auto 0;
+  margin-top: -1px;
+  margin-left: 6px;
+  border-radius: 0 8px 8px 0;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: .3s;
+  transition: calc(.3s);
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: blue;
+}
+
+.icons {
+  width: 430px;
+  height: 38px;
+  display: flex;
+  margin: auto 0;
+  margin-left: 44px;
+  gap: 32px;
+}
+
+.iconka {
+  width: auto;
+  height: 36px;
+  text-align: center;
+  font-size: 11.5px;
+  color: #333;
+  transition: .3s;
+  transition: calc(.3s);
+  text-decoration: none;
+}
+
+.iconka div {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: dodgerblue;
+  border-radius: 50%;
+  margin-left: 32px;
+  display: flex;
+  color: white;
+  padding:3px 5px;
+}
+
+.navIcon {
+  font-size: 24px;
+}
+
+.iconka:hover {
+  color: dodgerblue;
+}
+
+.til {
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+.navbar_bottom{
+  width: 100%;
+  height: 50px;
+  padding: 0 70px;
+  display: flex;
+  justify-content: space-between;
+  /* box-shadow: 0px 25px 20px -20px #c4c2c2; */
+}
+.navbar_bottom h2{
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: auto 0;
+  color: #333;
+  font-weight:500;
+  cursor: pointer;
+  transition: .3s;
+  transition: calc(.3s);
+}
+.navbar_bottom h2:hover{
+  color: dodgerblue;
+}

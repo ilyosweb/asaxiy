@@ -1,0 +1,72 @@
+.trek{
+  width: 100%;
+  height: 85vh;
+  display: flex;
+}
+.trek_card{
+  width: 90%;
+  height: 97%;
+  margin:0 auto ;
+  border-radius: 25px;
+  display: flex;
+  box-shadow: 0px 0px 30px 0px rgb(221, 221, 221);
+}
+.trek_cart1{
+  width: 40%;
+  height: 100%;
+  padding: 20px;
+}
+.trek_cart2{
+  width: 60%;
+  height: 10%;
+}
+.trek_cart1 h1{
+  font-size: 38px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: 500;
+ color: rgb(1, 1, 88);
+}
+.trek_cart1 p{
+  color: #999;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 80%;
+  padding-top: 18px;
+  margin-top: 5px;
+
+}
+.trek_cart1 input{
+  width: 90%;
+  height: 40px;
+  border-radius:8px;
+  border: none;
+  border: 1px solid #999;
+
+}
+.cartcha{
+  width: 60%;
+  height: 65px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  margin-top: 25px;
+  background: #c2d8e7;
+  display: flex;
+
+}
+.pitichka{
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid #999;
+  margin: auto 10px;
+}
+.trek_cart2{
+  display: flex;
+  padding: 100px 0px;
+}
+.trek_cart2 img{
+  width: 520px;
+  margin: auto;
+
+}
